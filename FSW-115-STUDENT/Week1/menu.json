@@ -1,0 +1,62 @@
+{
+    "appetizers": [
+        {
+            "name": "Fried Pickles",
+            "ingredient": ["Pickles", "Flour", "Salt", "Pepper"],
+            "description": "Crispy battered pickles fried and served with ranch."
+        },
+        {
+            "name": "Queso",
+            "ingredient": ["Velvta Cheese", "Chilli", "Peppers"],
+            "description": "Cheese dip with chilli and peppers. Served with fresh tortilla chips."
+        }
+    ],
+    "coldSandwiches": [
+        {
+            "name": "Ham and Cheese Sandwich",
+            "ingredient": ["Ham", "Your choice of bread", "Your choice of cheese", "Lettuce", "Tomato"],
+            "description": "A ham sandwich with your choice of white or whole wheat bread, your choice of american, pepperjack or colby jack cheese, Lettuce and tomato."
+        },
+        {
+            "name": "Turkey and Cheese Sandwich",
+            "ingredient": ["Turkey", "Your choice of bread", "Your choice of cheese", "Lettuce", "Tomato", "Pickle"],
+            "description": "A turkey sandwich with your choice of white or whole wheat bread, your choice of american, pepperjack or colby jack cheese, Lettuce, tomato and pickle."
+        }
+    ],
+    "hotSandwiches": [
+        {
+            "name": "Philly Cheesesteak Sandwich",
+            "ingredient": ["Sliced beef", "Italian Bread", "Onion", "Peppers", "Your choice of cheese"],
+            "description": "Sliced beef cooked  on a Italan Bread with your choice of american, pepperjack or colby jack cheese and sauteed onions and peppers."
+        },
+        {
+            "name": "Meatball Marinara",
+            "ingredient": ["Meatballs", "Hoagie Bun", "Marinara Sauce", "Your choice of cheese"],
+            "description": "A thick meatball sub sandwich with marinara sauce, your choice of american, pepperjack or mozzarella cheese ."
+        }
+    ],
+    "desserts": [
+        {
+            "name": "Cheesecake",
+            "ingredient": ["Cream Cheese", "Sour Cream", "Vanilla"],
+            "description": "A creamy cheesecake on a flakey crust."
+        },
+        {
+            "name": "Chocolate Pie",
+            "ingredient": ["Chocolate", "Pie Crust", "Milk"],
+            "descripton": "Moist carrot cake."
+        }
+    ],
+    "drinks": [
+        {
+            "name": "Pops",
+            "ingredient": ["Coca-Cola", "Dr. Pepper", "Pepsi", "Mountain Dew"],
+            "description": "Your choice of any available pop."
+        },
+        {
+            "name": "Sweet Tea",
+            "ingredient": ["Water", "Sugar", "Tea"],
+            "description": "A glass of sweet tea."
+        }
+    ]
+}
