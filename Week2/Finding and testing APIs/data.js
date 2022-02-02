@@ -631,6 +631,6 @@ let tokenList = document.querySelector("#tokenList");
 
 apiData.records.forEach(function(e, i) {
     let tokenEntry = document.createElement("li");
-    tokenEntry.textContent = `${apiData.records[i].name} ${apiData.records[i].symbol} ${apiData.records[i].address} ${apiData.records[i].decimals}`;
+    tokenEntry.textContent = `${apiData.records[i].name}// ${apiData.records[i].symbol}// ${apiData.records[i].address}// ${apiData.records[i].decimals}`;
     tokenList.appendChild(tokenEntry);
 })
