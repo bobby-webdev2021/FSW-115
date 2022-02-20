@@ -20,6 +20,11 @@ if (document.body.id == "digPage"){
                         entryDiv.appendChild(digName)
                         entryDiv.appendChild(digData)   
                     })
+                    if (result.data[i].isComplete == true)
+            {
+                digName.setAttribute("style", "text-decoration: line-through");
+                digData.setAttribute("style", "text-decoration: line-through");
+            }
                 loading = false;
                 if(loading == false){
                     document.querySelector("#digSubmit").innerHTML = "Get All!";
@@ -52,9 +57,16 @@ if (document.body.id == "monsterPage"){
                         entryDiv.appendChild(monsterName)
                         entryDiv.appendChild(monsterData)   
                     })
-                loading = false;
+                    
+                if (result.data[i].isComplete == true)
+            {
+                monsterName.setAttribute("style", "text-decoration: line-through");
+                monsterData.setAttribute("style", "text-decoration: line-through");
+            }
+            
+                        loading = false;
                 if(loading == false){
-                    document.querySelector("#monsterSubmit").innerHTML = "Get All!";
+                        document.querySelector("#monsterSubmit").innerHTML = "Get All!";
                 }
                 })
                 .catch(err => console.log(err))
